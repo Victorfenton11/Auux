@@ -64,7 +64,26 @@ body {
     position: absolute;
     z-index: 1;
     width: 100vw;
-    height: 100vh;
+    background-color: blueviolet;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
+  .Lobby .Container {
+    padding: 1.25rem;
+    border-radius: 0.313rem;
+    box-shadow: 0 0.313rem 0.625rem rgba(0,0,0,.1);
+    background: whitesmoke;
+    text-align: center;
+    width: 31.25rem;
+  }
+
+  .Lobby .Logo {
+    position: relative;
+    width: 30%;
+    text-align: center;
+    left: 0%;
+  }
 }

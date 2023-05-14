@@ -12,8 +12,11 @@ function App() {
   return (
     <div className="App">
       <div className='Lobby'>
-        <Button /> 
-        <Button />
+        <div className='Container'>
+          <Logo />
+          <Button /> 
+          <Button />
+        </div>
       </div>
       <div className="Header">
         <Logo />
