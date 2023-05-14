@@ -5,7 +5,6 @@ import Timer from './components/Timer';
 import Current from './components/Current';
 import List from './components/List';
 import Search from './components/Search';
-import react from 'react';
 
 function App() {
   return (

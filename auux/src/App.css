@@ -21,6 +21,13 @@ body {
   padding: 0;
 }
 
+.Footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 8%;
+}
+
 @media screen and (min-width: 50em)  {
   .App {
     background-color: blue;
