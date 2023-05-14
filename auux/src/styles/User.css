@@ -4,7 +4,7 @@
     align-items: center;
     width: 100%;
     margin: 0.188rem 0rem;
-    max-width: 15.625rem;
+    max-width: auto;
     padding: 0.625rem;
     border-radius: 0.625rem;
     background-color: darkgrey;

@@ -40,9 +40,13 @@ function App() {
         <Timer />
       </div>
       <div className="Body">
-        <Current />
-        <List />
-        <ScoreBoard />
+        <div className='body1'>
+          <Current />
+          <List />
+        </div>
+        <div className='body2'>
+          <ScoreBoard />
+        </div>
       </div>
       <div className="Footer">
         <Search />

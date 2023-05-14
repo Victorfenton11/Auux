@@ -118,4 +118,29 @@ body {
     display: none;
   }
 
+  .Body {
+    display: flex;
+  }
+
+  .Body .body1, .body2 {
+    flex: 1;
+    height: 100%;
+  }
+
+  .Body .body1 {
+    flex: 6;
+    height: 100%;
+    background-color: transparent;
+    position: relative;
+  }
+
+  .Body .body2 {
+    flex: 4;
+    height: 100%;
+    background-color: transparent;
+    position: relative;
+  }
+
+  
+
 }

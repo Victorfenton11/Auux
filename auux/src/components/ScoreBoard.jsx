@@ -9,6 +9,8 @@ export default function ScoreBoard() {
             <User />
             <User />
             <User />
+            <User />
+            <User />
         </div>
     );
 }
