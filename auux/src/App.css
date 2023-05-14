@@ -29,7 +29,30 @@ body {
 }
 
 @media screen and (min-width: 50em)  {
+  * {
+    outline: red dashed 1px;
+    box-sizing: border-box;
+  }
+  
   .App {
     background-color: blue;
+    height: 100vh;
+    width: 100vw;
   }
+
+  .Header {
+    min-height: 6.25rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 1.50rem;
+  }
+
+  .Footer {
+    display: flex;
+    justify-content: space-between; 
+  }
+
 }
