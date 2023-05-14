@@ -1,0 +1,43 @@
+.Song {
+    position: relative;
+    background-color: #353535;
+    width: 95%;
+    margin-left: 2.5%;
+    height: 10vh;
+    border-radius: 0.8em;
+}
+
+.Cover {
+    position: absolute;
+    top: 12%;
+    left: 5%;
+    width: 15%;
+    max-height: 75%;
+    border: 2px dotted blue;
+}
+
+.Title {
+    color: #eeeedd;
+    position: relative;
+    top: 20%;
+    left: 24%;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-bottom: 0em;
+    margin-top: 0.5em;
+}
+
+.Vote {
+    position: absolute;
+    max-width: 8%;
+    top: 30%;
+    right: 5%;
+    border: 0.1rem solid lightgreen;
+    padding: 0.2rem;
+    border-radius: 10%;
+}
+
+.Votes {
+    position: absolute;
+}

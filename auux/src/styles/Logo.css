@@ -1,0 +1,7 @@
+.Logo {
+    position: absolute;
+    left: 0;
+    object-fit: contain;
+    max-height: 100%;
+    width: auto;
+}
