@@ -8,6 +8,7 @@ import Search from './components/Search';
 import axios from 'axios';
 import Button from './components/Button';
 import InputField from './components/InputField';
+import ScoreBoard from './components/ScoreBoard';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
       <div className="Body">
         <Current />
         <List />
+        <ScoreBoard />
       </div>
       <div className="Footer">
         <Search />
