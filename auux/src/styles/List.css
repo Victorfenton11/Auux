@@ -3,4 +3,10 @@
     max-height: 60vh;
     overflow-x: hidden;
     overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.SongList::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
 }
