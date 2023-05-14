@@ -7,6 +7,7 @@ import List from './components/List';
 import Search from './components/Search';
 import axios from 'axios';
 import Button from './components/Button';
+import InputField from './components/InputField';
 
 function App() {
   return (
@@ -14,9 +15,24 @@ function App() {
       <div className='Lobby'>
         <div className='Container'>
           <Logo />
-          <Button />
-          <Button />
+          <Button text = "Join Party"/>
+          <Button text = "Create Party"/>
         </div>
+
+        <div className='Join'>
+          <Logo />
+          <p>Party Code:</p>
+          <InputField type="text" placeholder="Enter code here"/>
+          <InputField type="submit" placeholder="Enter" />
+          <Button text="Go Back"/>
+        </div>
+
+        <div className='Create'>
+          <Logo /> 
+          <Button text="Login In Spotify" />
+          <Button text="Go Back"/>
+        </div>
+
       </div>
       <div className="Header">
         <Logo />
