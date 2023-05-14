@@ -6,6 +6,7 @@ import Current from './components/Current';
 import List from './components/List';
 import Search from './components/Search';
 import axios from 'axios';
+import Button from './components/Button';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <div className='Lobby'>
         <div className='Container'>
           <Logo />
-          <Button /> 
+          <Button />
           <Button />
         </div>
       </div>
