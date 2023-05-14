@@ -55,7 +55,7 @@ body {
     padding: 1.50rem;
   }
 
-  .Footer {
+  .Footer { 
     display: flex;
     justify-content: space-between; 
   }
