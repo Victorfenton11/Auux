@@ -73,7 +73,7 @@
         left: 5%;
         width: 15%;
         max-height: 75%;
-        border: 2px dotted blue;
+        border: 0.125rem dotted blue;
     }
     
     .Title {
