@@ -1,0 +1,16 @@
+.Logo {
+    position: absolute;
+    left: 0;
+    object-fit: contain;
+    max-height: 100%;
+    width: auto;
+}
+
+@media screen and (min-width: 50em)  {
+    .Logo {
+        flex: 1;
+    	text-align: left;
+        top: 0rem; 
+        left: 3%;
+    }
+}
