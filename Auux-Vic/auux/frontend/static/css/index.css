@@ -1,0 +1,149 @@
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  #main {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+  
+  .App {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .Lobby {
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Lobby .Container {
+    padding: 1.25rem;
+    border-radius: 0.313rem;
+    box-shadow: 0 0.313rem 0.625rem rgba(0,0,0,.2);
+    background: whitesmoke;
+    text-align: center;
+    width: 75%;
+  }
+
+  .Lobby .Logo {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    left: 0%;
+  }
+
+  #popUp {
+    display: none;
+    z-index: 50;
+    position: absolute;
+  }
+
+  .codeInput {
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 85%;
+    padding: 0.625rem 0.938rem;
+    border-radius: 0.625rem;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    letter-spacing: 0.25rem;
+    font-weight: lighter;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .Header {
+    width: 100%;
+    height: 10%;
+    position: relative;
+  }
+  
+  .Body {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+  }
+  
+  .Footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 8%;
+  }
+  
+  @media screen and (min-width: 50em)  {
+    * {
+      outline: red dashed 1px;
+      box-sizing: border-box;
+    }
+    
+    .App {
+      background-color: blue;
+      height: 100vh;
+      width: 100vw;
+    }
+  
+    .Header {
+      min-height: 6.25rem;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: black;
+      padding: 1.50rem;
+    }
+  
+    .Footer { 
+      display: flex;
+      justify-content: space-between; 
+    }
+  
+    .Lobby {
+      position: absolute;
+      z-index: 1;
+      width: 100vw;
+      background-color: blueviolet;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .Lobby .Container {
+      padding: 1.25rem;
+      border-radius: 0.313rem;
+      box-shadow: 0 0.313rem 0.625rem rgba(0,0,0,.2);
+      background: whitesmoke;
+      text-align: center;
+      width: 35rem;
+    }
+  
+    .Lobby .Logo {
+      position: relative;
+      width: 50%;
+      text-align: center;
+      left: 0%;
+    }
+
+    .roomCode {
+      color: white;
+      font-size: 5rem;
+    }
+  
+  }
